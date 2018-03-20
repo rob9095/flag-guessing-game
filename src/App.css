@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.App{
+  font-family:Roboto;
+  text-align:center;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.option {
+  margin:40px 40px;
+}
+.flag-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flag {
+  max-width: 600px;
+  max-height: 400px;
+  padding: 25px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
